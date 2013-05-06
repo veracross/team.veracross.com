@@ -695,7 +695,8 @@ nav#primary-nav {
   top: 0;
   z-index: 60;
   width: 100%;
-  padding: 0 20px;
+  min-width: 276px;
+  padding: 0;
   background-color: rgba(0, 0, 0, 0.85);
   background-image: url('../img/dark-bg-trans.png');
   font-weight: 400;
@@ -736,9 +737,6 @@ nav#primary-nav ul li.active a,   nav#primary-nav ul li.active a:hover {
   //background-size: 5px 12px, 5px 12px !important;
   background-color: rgba(10, 10, 10, 0.6) !important;
   color: #53b3ff;
-}
-@media only screen and (max-width: 368px) {
-
 }
 
 
@@ -1058,4 +1056,27 @@ footer #address p strong {
   font-size: 18px;
   color: #999;
   margin-top: -10px;
+}
+
+
+/*  fixes for small screens */
+
+@media only screen and (max-width: 382px) {
+  nav#primary-nav {
+    font-size: 12px;
+  }
+  nav#primary-nav ul {
+    padding: 6px 0px;
+  }
+  nav#primary-nav ul li a {
+    padding: 15px 8px;
+  }
+  .team-box .team-content {
+    margin-left: 0px;
+    float: left;
+  }
+  .office-culture .text-block {
+    margin-left: 0px;
+    float: left;
+  }
 }
