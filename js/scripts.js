@@ -14,11 +14,7 @@
 		topLinks = dom.find('a.top');
 
 		function goToByScroll(id){
-			if ( $(window).width() < 368 ) {
-		  	$('html,body').animate({scrollTop: $(id).offset().top-90}, 400);
-		  } else {
-		  	$('html,body').animate({scrollTop: $(id).offset().top-45}, 400);
-		  }
+	  	$('html,body').animate({scrollTop: $(id).offset().top-45}, 400);
 		}
 
 		primaryNav.click(function(){
