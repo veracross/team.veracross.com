@@ -796,12 +796,14 @@ header p {
   color: white;
   margin-bottom: -3px;
   font-size: 1.6875em;
+  text-align: center;
 }
 #detail-wrapper .detail-box p {
   color: #0a5693;
   font-size: 13px;
   font-weight: 600;
   font-style: italic;
+  text-align: center;
 }
 @media only screen and (max-width: 980px) {
   #detail-wrapper {
@@ -1052,9 +1054,9 @@ footer #address p strong {
 
 
 /* clearing floats */
-.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
-.clearfix:after { clear: both; }  
-.clearfix { zoom: 1; }  
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
 
 
 .intro {
